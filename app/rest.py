@@ -1,7 +1,7 @@
 import pymysql
+from flask import jsonify
 from app import app
 from db import mysql
-from flask import jsonify
 
 
 @app.route("/")
